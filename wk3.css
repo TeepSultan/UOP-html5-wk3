@@ -1,0 +1,29 @@
+.box {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+
+footer {
+    text-align: center;
+}
+
+#messageDiv {
+    background: burlywood;
+    border: 2px dotted black;
+}
+
+.moving {
+    opacity: .5;
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -o-transform: scale(0.9);
+    transform: scale(0.9);
+}
+.still {
+    opacity: 1.0;
+    -webkit-transform: scale(1.0);
+    -moz-transform: scale(1.0);
+    -o-transform: scale(1.0);
+    transform: scale(1.0);
+}
